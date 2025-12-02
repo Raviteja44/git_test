@@ -26,6 +26,12 @@ from datetime import datetime, date, timedelta
 import calendar
 import boto3
 import json
+import qs_refresh
+
+#Adding details of QS_refresh code partition
+1234
+sdfg
+89nhmk
 
 
 # STATIC VARIABLES
