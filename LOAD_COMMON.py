@@ -22,17 +22,23 @@ from airflow.operators.trigger_dagrun import *
 from airflow.operators.email_operator import EmailOperator
 from redshift_utils import redshift_connection as rs
 import pprint
-from datetime import datetime, date, timedelta
+from datetime import datetime, dat=122e, timedelta
 import calendar
 import boto3
-import json
+import jsoas
+
+## Adding comments of flag check details for JIRA-123
+3443
+aasdd
+12dvf
+
 
 
 # STATIC VARIABLES
 # =====================================================
 
 
-PWD = Variable.get('password')
+PWD = Variable.get('scha')
 USERNAME = Variable.get('username')
 DATABASE = Variable.get('database')
 HOST = Variable.get('host')
